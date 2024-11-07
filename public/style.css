@@ -1,0 +1,368 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, main {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  width: 100%;
+  margin: 1rem auto;
+  font-size: 1.25rem;
+}
+
+.starlink-container {
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.starlink-card-list {
+  display: flex;
+}
+
+.starlink-card-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 240px;
+  text-align: center;
+}
+
+.starlink-illustration-1 {
+  background-image: url("/assets/roam_illustriation1_d\ \(1\).webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.starlink-illustration-2 {
+  background-image: url("/assets/roam_illustriation2_d.webp");
+  background-attachment: fixed;
+}
+
+.starlink-illustration-4 {
+  background-color: black;
+  background-image: url("/assets/landmobility_illustriation2_d.webp");
+  background-attachment: fixed;
+  background-size: 50%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.starlink-one {
+  background-image: url('../assets//roam_c_hero_d.webp');
+  background-size: cover;
+  background-position: center;
+
+  .starlink-text-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    h1 {
+      font-size: 4.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .starlink-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px 20px;
+    height: 250px;
+    width: 640px;
+  }
+}
+
+.starlink-two {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(400px, 1fr));
+  background-image: url('../assets/roam_c_feature5_d.webp');
+  background-size: cover;
+  background-position: center;
+  
+  .starlink-text-container-remote {
+    grid-area: 1 / 3 / span 1 / span 1;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-gap: 4px;
+    width: 480px;
+    max-width: 100%;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 480px;
+    text-align: justify;
+  }
+
+  @media (max-width: 1200px) {
+    .starlink-text-container-remote {
+      width: 300px;
+    };
+  }
+}
+
+.starlink-three {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  .starlink-text-container-install {
+      text-align: start;
+      width: 100%;
+      padding: 20px;
+  }
+
+  picture, img, source {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+.starlink-four {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(400px, 1fr));
+  background-image: url('../assets/roam_collapse_d.jpg');
+  background-size: cover;
+  background-position: center;
+
+  .starlink-text-container-collapse {
+    grid-area: 1 / 3 / span 1 / span 1;
+    /* display: grid; */
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-gap: 4px;
+    width:490px;
+    max-width: auto;
+    margin-top: 4rem; 
+ 
+    
+    margin-right: 4rem; 
+        margin-bottom: 420px; 
+text-align: justify;
+  }
+
+  @media (max-width: 1200px) {
+    .starlink-text-container-collapse {
+      width: 300px;
+    }
+  }
+
+  p {
+    background-color: rgba(18, 18, 18, 0.1);
+    padding: 4px;
+    border-radius: 4px;
+  }
+}
+
+.starlink-seven {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .starlink-ng-star-inserted {
+      /* width: 100%; */
+      max-width: 710px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+}
+
+.starlink-eight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  background-image: url('../assets/landmobility_a_weather_d.webp');
+  background-size: cover;
+  background-position: center;
+
+  .starlink-text-container-ng {
+    max-width: 680px;
+    margin: 120px 4rem;
+    padding: 0 20px;
+    justify-content: flex-end;
+    margin-right: auto;
+  }
+}
+
+.starlink-nine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.starlink-nine-img-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.starlink-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.starlink-img-wrapper img {
+  max-width: 100%;
+  height: 380px;
+  transition: transform 0.3s ease;
+}
+
+.starlink-img-wrapper img:hover {
+  transform: scale(1.1);
+}
+
+.starlink-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.starlink-overlay-title {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 1.2rem;
+}
+
+.starlink-overlay-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.starlink-overlay-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .starlink-two {
+    grid-template-columns: repeat(2, minmax(300px, 3fr));
+  }
+  .starlink-three {
+    margin: 0;
+  }
+  .starlink-four {
+    grid-template-columns: repeat(2, minmax(300px, 3fr));
+  }
+}
+
+@media (max-width: 800px) {
+  
+  .starlink-content-container-install {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 95%;
+  }
+  .starlink-text-container-remote {
+    grid-area: unset;
+    margin: 0 auto;
+  }
+  .starlink-text-container-collapse {
+    grid-area: unset;
+    margin: 0 auto;
+  }
+  .starlink-text-container {
+    margin-bottom: 8rem;
+    padding: 12px
+  }
+  .starlink-one {
+    background-image: url("/assets/landmobility_a_hero_m.webp");
+  }
+  .starlink-two {
+    grid-template-columns: repeat(1, minmax(160px, 3fr));
+    background-image: url('/assets/roam_a_feature1_m.webp');
+    background-position: center;
+    background-size: cover;
+  }
+  .starlink-three {
+    display: flex;
+    flex-direction: column;
+  }
+  .starlink-four {
+    grid-template-columns: repeat(1, minmax(160px, 3fr));
+    background-image: url('/assets/landmobility_a_feature1_m.webp');
+    background-size: cover;
+  }
+  .starlink-seven {
+    display: flex;
+    flex-direction: column;
+  }
+  .starlink-card-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: auto;
+  }
+  .starlink-card-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80px;
+    text-align: center;
+    font-size: 8px;
+  }
+  
+  .starlink-what-is-section{
+    display: flex;
+    flex-direction: column;
+    gap:12rem; 
+    width: 10px; 
+    
+}
+
+}

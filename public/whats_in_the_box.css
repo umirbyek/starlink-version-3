@@ -1,0 +1,95 @@
+.starlink-custom-next-1, .starlink-custom-prev-1 {
+    color: #fff;
+    margin-top: 10rem;
+  }
+
+.starlink-five {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../assets/roam_a_hardware_d.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.starlink-landmobility {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../assets/roam_b_hardware_d.webp');
+    background-size: cover;
+    background-position: center;
+}
+.starlink-weather-resilient {
+
+    display: flex;
+    flex-direction: row;
+    background-image: url('../assets/roam_b_weather_d.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 10rem;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    .wheather{
+     width: 40rem;
+     text-align: justify;
+    }
+
+}
+
+.starlink-text-container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    width: auto;
+    margin-left: 80px;
+}
+
+.starlink-item {
+    text-align: center;
+}
+.starlink-what-is-section{
+    display: flex;
+    flex-direction: column;
+    gap:12rem;
+    width: auto;
+    p{
+        font-size: 1.25rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    
+}
+.starlink-weather-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    justify-items: safe;
+    width: auto;
+}
+
+@media (max-width: 800px) {
+  
+  .starlink-weather-resilient {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../assets/roam_b_weather_d.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+    padding-top:5rem;
+    justify-content: flex-start; /* Зүүн талд байрлуулах */
+    align-items: flex-start;  
+  
+  }
+  .starlink-what-is-section{
+    display: flex;
+    flex-direction: column;
+ 
+
+    width:auto;
+    
+}
+  }
+  

@@ -1,0 +1,51 @@
+.starlink-primary-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight:bold;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out, transform 0.3s ease-in-out;
+    max-width: 280px;
+  
+    &:hover {
+      background-color: #ffa500;
+    }
+  
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+  
+  .starlink-link-container {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+  }
+  
+  .starlink-secondary-button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 18rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight:normal;
+    color: #fff;
+    background-color: rgba(18, 18, 18, 0.7);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  
+    &:hover {
+      color: white;
+      background-color: rgba(18, 18, 18, 18);
+    }
+  
+    &:active {
+      transform: scale(0.95);
+    }
+  }
