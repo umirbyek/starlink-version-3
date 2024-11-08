@@ -6,7 +6,7 @@
 .starlink-five {
     display: flex;
     flex-direction: row;
-    background-image: url('../assets/roam_a_hardware_d.webp');
+    background-image: url('../public/roam_a_hardware_d.webp');
     background-size: cover;
     background-position: center;
 }
@@ -14,7 +14,7 @@
 .starlink-landmobility {
     display: flex;
     flex-direction: row;
-    background-image: url('../assets/roam_b_hardware_d.webp');
+    background-image: url('../public/roam_b_hardware_d.webp');
     background-size: cover;
     background-position: center;
 }
@@ -22,7 +22,7 @@
 
     display: flex;
     flex-direction: row;
-    background-image: url('../assets/roam_b_weather_d.webp');
+    background-image: url('../public/roam_b_weather_d.webp');
     background-size: cover;
     background-position: center;
     padding: 10rem;
@@ -74,7 +74,7 @@
   .starlink-weather-resilient {
     display: flex;
     flex-direction: row;
-    background-image: url('../assets/roam_b_weather_d.webp');
+    background-image: url('../public/roam_b_weather_d.webp');
     background-size: cover;
     background-position: center;
     padding: 1rem;
