@@ -57,7 +57,7 @@ section {
 }
 
 .starlink-illustration-1 {
-  background-image: url("/public/roam_illustriation1_d\ \(1\).webp");
+  background-image: url("/image/roam_illustriation1_d\ \(1\).webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -65,13 +65,13 @@ section {
 }
 
 .starlink-illustration-2 {
-  background-image: url("/public/roam_illustriation2_d.webp");
+  background-image: url("/image/roam_illustriation2_d.webp");
   background-attachment: fixed;
 }
 
 .starlink-illustration-4 {
   background-color: black;
-  background-image: url("/public/landmobility_illustriation2_d.webp");
+  background-image: url("/image/landmobility_illustriation2_d.webp");
   background-attachment: fixed;
   background-size: 50%;
   background-position: right;
@@ -79,7 +79,7 @@ section {
 }
 
 .starlink-one {
-  background-image: url('../public//roam_c_hero_d.webp');
+  background-image: url('../image//roam_c_hero_d.webp');
   background-size: cover;
   background-position: center;
 
@@ -114,7 +114,7 @@ section {
 .starlink-two {
   display: grid;
   grid-template-columns: repeat(3, minmax(400px, 1fr));
-  background-image: url('../public/roam_c_feature5_d.webp');
+  background-image: url('../image/roam_c_feature5_d.webp');
   background-size: cover;
   background-position: center;
   
@@ -159,7 +159,7 @@ section {
 .starlink-four {
   display: grid;
   grid-template-columns: repeat(3, minmax(400px, 1fr));
-  background-image: url('../public/roam_collapse_d.jpg');
+  background-image: url('../image/roam_collapse_d.jpg');
   background-size: cover;
   background-position: center;
 
@@ -209,7 +209,7 @@ text-align: justify;
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
-  background-image: url('../public/landmobility_a_weather_d.webp');
+  background-image: url('../image/landmobility_a_weather_d.webp');
   background-size: cover;
   background-position: center;
 
@@ -321,11 +321,11 @@ text-align: justify;
     padding: 12px
   }
   .starlink-one {
-    background-image: url("/public/landmobility_a_hero_m.webp");
+    background-image: url("/image/landmobility_a_hero_m.webp");
   }
   .starlink-two {
     grid-template-columns: repeat(1, minmax(160px, 3fr));
-    background-image: url('/public/roam_a_feature1_m.webp');
+    background-image: url('/image/roam_a_feature1_m.webp');
     background-position: center;
     background-size: cover;
   }
@@ -335,7 +335,7 @@ text-align: justify;
   }
   .starlink-four {
     grid-template-columns: repeat(1, minmax(160px, 3fr));
-    background-image: url('/public/landmobility_a_feature1_m.webp');
+    background-image: url('/image/landmobility_a_feature1_m.webp');
     background-size: cover;
   }
   .starlink-seven {
